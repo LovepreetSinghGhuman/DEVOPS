@@ -2,9 +2,9 @@ name: RetailPulse CI
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main, master, retail-pulse ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main, master, retail-pulse ]
 
 jobs:
   test:
