@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'retail-pulse-cluster'
+    static_configs:
+      - targets: ['api_1:8000', 'api_2:8000']
