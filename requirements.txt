@@ -12,6 +12,7 @@ httpx
 pandas
 numpy
 passlib[bcrypt]
+bcrypt<5
 pyjwt
 email-validator
 python-multipart
